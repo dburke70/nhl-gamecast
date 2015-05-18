@@ -1,0 +1,521 @@
+<!-- 1024x768 -->
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>NHL gamecast</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/nhl4.css">
+		<style>
+		.period1,
+		.period2,
+		.period3,
+		.ot,
+		.so {
+			display: none;
+		}
+		</style>
+	</head>
+	<body>
+	
+		<div class="top-wrap">
+			<div class="left-logo">
+				<img src="images/tbl.png">
+			</div>
+			<div class="rt-team">
+				<div class="expanded-team">
+					Tampa Bay Lightning
+				</div>
+				<span class="team-abbrev tar">
+					TB
+				</span>
+				<span class="sog tar">SOG 32</span>
+			</div>
+			<div class="score">
+				1 <span class="spike"></span> 0
+				<span class="sog">FINAL</span>
+			</div>
+			<div class="left-team">
+				<div class="expanded-team">
+					Detroit Red Wings
+				</div>
+				<span class="team-abbrev tar">Det</span>
+				<span class="sog">SOG 28</span>
+			</div>
+			<div class="rt-logo">
+				<img src="images/detw.png">
+			</div>
+		</div>
+		
+		<h2 class="main-header">on ice breakdown</h2>
+		<div class="gamecast-submenu">
+			<div id="total">TOTAL</div>
+			<div id="first" class="active">1ST</div>
+			<div id="second">2ND</div>
+			<div id="third">3RD</div>
+			<div id="ot" class="na">OT</div>
+			<div id="so" class="na">SO</div>
+		</div>
+		<div class="rink-wrap">
+			<div class="rink">
+				<div class="home-team"><img src="images/drw.png"></div>
+				<div class="away-team"><img src="images/tbll.png"></div>
+				<div class="center-ice"><img src="images/drw.png"></div>
+				
+				<div class="action">
+					<div class="period1">
+						<div class="goals">
+					<div class="goal" style="left: 10%;top: 50%;"><img src="images/away-goal.png"></div>
+				</div>
+						<div class="shots">
+					<div class="shot" style="left: 20%;top: 30%;"><img src="images/away-shot.png"></div>
+					<div class="shot" style="left: 22%;top: 30%;"><img src="images/away-shot.png"></div>
+					<div class="shot" style="left: 62%;top: 30%;"><img src="images/det-shot.png"></div>
+					<div class="shot" style="left: 82%;top: 37%;"><img src="images/det-shot.png"></div>
+				</div>
+					</div>
+					<div class="period2">
+						<div class="goals">
+						</div>
+						<div class="shots">
+							<div class="shot" style="left: 10%;top: 40%;"><img src="images/away-shot.png"></div>
+							<div class="shot" style="left: 12%;top: 90%;"><img src="images/away-shot.png"></div>
+							<div class="shot" style="left: 72%;top: 70%;"><img src="images/det-shot.png"></div>
+							<div class="shot" style="left: 79%;top: 77%;"><img src="images/det-shot.png"></div>
+						</div>
+					</div>
+					<div class="period3">
+						<div class="goals">
+					
+						</div>
+						<div class="shots">
+							<div class="shot" style="left: 20%;top: 32%;"><img src="images/away-shot.png"></div>
+							<div class="shot" style="left: 16%;top: 42%;"><img src="images/away-shot.png"></div>
+							<div class="shot" style="left: 96%;top: 10%;"><img src="images/det-shot.png"></div>
+							<div class="shot" style="left: 82%;top: 16%;"><img src="images/det-shot.png"></div>
+						</div>
+					</div>
+					<div class="ot">
+					
+					</div>
+					<div class="so">
+					</div>
+				</div>
+				<img src="images/rink-trans.png" class="responsive-image">
+			</div>
+		</div>
+		<div class="legend-wrap">
+			<ul>
+				<li><a href="" class="active"><img src="images/away-shot.png"><span>Shot on goal</span></a></li>
+				<li><a href="" class="active"><img src="images/away-goal.png"><span>goal</span></a></li>
+				
+			</ul>
+		</div>
+		
+		<div class="ad-container-mobile">
+			<img src="images/mobile-ad.jpg">
+		</div>
+		
+		<div class="double-wrap first-section">
+			<div class="section">
+				<h2 class="main-header">scoring summary</h2>
+				<h3 class="main-header">1st period</h3>
+				<ul class="summary">
+					<li class="time">19:37 Det</li>
+					<li>PPG - Riley Sheahan (2) ASST: Niklas Kronwall (1), Henrik Zetterberg (3)</li>
+				</ul>
+				<h3 class="main-header">2nd period</h3>
+				<ul class="summary">
+				<li class="time">14:46 Det</li>
+				<li>Drew Miller (1) ASST: Luke Glendening (1), Jonathan Ericsson (3)</li>
+			</ul>
+				<h3 class="main-header">3rd period</h3>
+				<ul class="summary">
+			<li class="time">15:47 Det</li>
+			<li>PPG - Pavel Datsyuk (3) ASST: Jonathan Ericsson (4), Darregn Helm (3)</li>
+		</ul>
+				<ul class="summary">
+			<li class="time">18:22 DET</li>
+			<li>EN - Danny DeKeyser (1) ASST: Kyle Quincey (3), Joakim Andersson (1)</li>
+		</ul>
+			</div>
+			<div class="section spacer">&nbsp;</div>
+			<div class="section ad-container-lg">
+				<img src="images/250x300.jpg" class="adimage">
+			</div>
+		</div>
+		
+		<div class="double-wrap">
+			<div class="section floatleft">
+			
+				<h2 class="main-header">shots by period</h2>
+				<div class="section-submenu">
+					<div>PERIOD</div>
+					<div>DET</div>
+					<div>TBL</div>
+				</div>
+				<div class="thirds-wrap">
+					<ul class="thirds">
+						<li>1st</li>
+						<li>30</li>
+						<li>9</li>
+					</ul>
+					<ul class="thirds">
+						<li>2nd</li>
+						<li>8</li>
+						<li>5</li>
+					</ul>
+					<ul class="thirds">
+						<li>3rd</li>
+						<li>1</li>
+						<li>14</li>
+					</ul>
+					<ul class="thirds">
+						<li>total</li>
+						<li>30</li>
+						<li>28</li>
+					</ul>
+				</div>
+		
+		
+				<h2 class="main-header">penalty summary</h2>
+				<h3 class="main-header">1st period</h3>
+				<ul class="summary">
+					<li class="time">01:05 DET</li>
+					<li>Jonathan Ericsson Cross checking against Steven Stamkos</li>
+				</ul>
+				<ul class="summary">
+					<li class="time">06:56 TBL</li>
+					<li>Anton Stralman Hooking against Henrik Zetterberg</li>
+				</ul>
+				<ul class="summary">
+					<li class="time">18:13 TBL</li>
+					<li>Ondrej Palat Hooking against Darren Helm</li>
+				</ul>
+				<h3 class="main-header">2nd period</h3>
+				<ul class="summary">
+					<li class="time">04:30 TBL</li>
+					<li>Tyler Johnson Hi-sticking against Danny DeKeyser</li>
+				</ul>
+				<h3 class="main-header">3rd period</h3>
+				<ul class="summary">
+					<li class="time">01:41 DET</li>
+					<li>Joakim Andersson Hooking against Brian Boyle</li>
+				</ul>
+				<ul class="summary">
+					<li class="time">11:14 DET</li>
+					<li>Tomas Jurco Hi-sticking against Brenden Morrow</li>
+				</ul>
+				<ul class="summary">
+					<li class="time">15:32 TBL</li>
+					<li>Steven Stamkos Hooking against Justin Abdelkader</li>
+				</ul>
+				<ul class="summary">
+					<li class="time">20:00 DET</li>
+					<li>Landon Ferraro Cross checking against Ryan Callahan</li>
+				</ul>
+			</div>
+			<div class="section floatright">
+				
+				<h2 class="main-header">stars of the game</h2>
+				<table cellpadding="0" cellspacing="0" class="star-table">
+					<tr>
+						<td class="player-photo" rowspan="2">
+							<img src="images/mrazek.jpg">
+						</td>
+						<td colspan="2" class="player"><span>1st <img src="images/star.png" class="star"></span>PETR MRAZEK<span>G</span></td>
+					</tr>
+					<tr>
+						<td class="star-stats">
+							<table class="inner-table" cellpadding="0" cellspacing="0">
+								<tr>
+									<td class="col1">
+										SA
+									</td>
+									<td class="col2">
+										28
+									</td>
+									<td class="col3">
+										TOI
+									</td>
+									<td class="col4">
+										60:00
+									</td>
+								</tr>
+								<tr>
+									<td class="col1">
+										GA
+									</td>
+									<td class="col2">
+										0
+									</td>
+									<td class="col3">
+										EV
+									</td>
+									<td class="col4">
+										21-21
+									</td>
+								</tr>
+								<tr>
+									<td class="col1">
+										PIM
+									</td>
+									<td class="col2">
+										0
+									</td>
+									<td class="col3">
+										PP
+									</td>
+									<td class="col4">
+										7-7
+									</td>
+								</tr>
+								<tr>
+									<td class="col1">
+										SV%
+									</td>
+									<td class="col2">
+										1.000 
+									</td>
+									<td class="col3">
+										SH
+									</td>
+									<td class="col4">
+										0-0
+									</td>
+								</tr>
+							</table>
+						</td>
+				
+						<td class="player-logo">
+							<img src="images/det.png">
+						</td>
+					</tr>
+				</table>
+				<table cellpadding="0" cellspacing="0" class="star-table">
+					<tr>
+						<td class="player-photo" rowspan="2">
+							<img src="images/kronwall.jpg">
+						</td>
+						<td colspan="2" class="player"><span>2nd <img src="images/star.png" class="star"></span>NIKLAS KRONWALL<span>D</span></td>
+					</tr>
+					<tr>
+						<td class="star-stats">
+							<table class="inner-table" cellpadding="0" cellspacing="0">
+								<tr>
+									<td class="col1">
+										G
+									</td>
+									<td class="col2">
+										0
+									</td>
+									<td class="col3">
+										Shots
+									</td>
+									<td class="col4">
+										2
+									</td>
+								</tr>
+								<tr>
+									<td class="col1">
+										A
+									</td>
+									<td class="col2">
+										1
+									</td>
+									<td class="col3">
+										Hits
+									</td>
+									<td class="col4">
+										4
+									</td>
+								</tr>
+								<tr>
+									<td class="col1">
+										PTS
+									</td>
+									<td class="col2">
+										1
+									</td>
+									<td class="col3">
+										PIM
+									</td>
+									<td class="col4">
+										2
+									</td>
+								</tr>
+								<tr>
+									<td class="col1">
+										+/-
+									</td>
+									<td class="col2">
+										0
+									</td>
+									<td class="col3">
+										TOI
+									</td>
+									<td class="col4">
+										23:41
+									</td>
+								</tr>
+							</table>
+						</td>
+				
+						<td class="player-logo">
+							<img src="images/det.png">
+						</td>
+					</tr>
+				</table>
+				<table cellpadding="0" cellspacing="0" class="star-table">
+					<tr>
+						<td class="player-photo" rowspan="2">
+							<img src="images/ericsson.jpg">
+						</td>
+						<td colspan="2" class="player"><span>3rd <img src="images/star.png" class="star"></span>JONATHAN ERICSSON <span>D</span></td>
+					</tr>
+					<tr>
+						<td class="star-stats">
+							<table class="inner-table" cellpadding="0" cellspacing="0">
+								<tr>
+									<td class="col1">
+										G
+									</td>
+									<td class="col2">
+										0
+									</td>
+									<td class="col3">
+										Shots
+									</td>
+									<td class="col4">
+										2
+									</td>
+								</tr>
+								<tr>
+									<td class="col1">
+										A
+									</td>
+									<td class="col2">
+										2
+									</td>
+									<td class="col3">
+										Hits
+									</td>
+									<td class="col4">
+										4
+									</td>
+								</tr>
+								<tr>
+									<td class="col1">
+										PTS
+									</td>
+									<td class="col2">
+										1
+									</td>
+									<td class="col3">
+										PIM
+									</td>
+									<td class="col4">
+										2
+									</td>
+								</tr>
+								<tr>
+									<td class="col1">
+										+/-
+									</td>
+									<td class="col2">
+										0
+									</td>
+									<td class="col3">
+										TOI
+									</td>
+									<td class="col4">
+										21:34
+									</td>
+								</tr>
+							</table>
+						</td>
+				
+						<td class="player-logo">
+							<img src="images/det.png">
+						</td>
+					</tr>
+				</table>
+				
+				<h2 class="main-header">team stats</h2>
+				<div class="section-submenu">
+					<div>category</div>
+					<div>DET</div>
+					<div>TBL</div>
+				</div>
+				<div class="thirds-wrap">
+					<ul class="thirds other">
+						<li>power plays</li>
+						<li>2/4</li>
+						<li>0/3</li>
+					</ul>
+					<ul class="thirds other">
+						<li>hits</li>
+						<li>32</li>
+						<li>26</li>
+					</ul>
+					<ul class="thirds other">
+						<li>faceoff wins</li>
+						<li>23</li>
+						<li>41</li>
+					</ul>
+					<ul class="thirds other">
+						<li>giveaways</li>
+						<li>3</li>
+						<li>8</li>
+					</ul>
+					<ul class="thirds other">
+						<li>takeaways</li>
+						<li>6</li>
+						<li>5</li>
+					</ul>
+					<ul class="thirds other">
+						<li>blocked shots</li>
+						<li>14</li>
+						<li>10</li>
+					</ul>
+					<ul class="thirds other">
+						<li>penalty minutes</li>
+						<li>8</li>
+						<li>8</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".gamecast-submenu > div").removeClass("active");
+				//	$("#first").addClass("active");
+				
+				$("#total").click(function(){
+					$(".gamecast-submenu > div").removeClass("active");
+					$(this).addClass("active");
+					$(".action > div").show();
+				});
+				$("#first").click(function(){
+					$(".gamecast-submenu > div").removeClass("active");
+					$(this).addClass("active");
+					$(".action > div").hide();
+					$(".period1").show();
+				});
+				$("#second").click(function(){
+					$(".gamecast-submenu > div").removeClass("active");
+					$(this).addClass("active");
+					$(".action > div").hide();
+					$(".period2").show();
+				});
+				$("#third").click(function(){
+					$(".gamecast-submenu > div").removeClass("active");
+					$(this).addClass("active");
+					$(".action > div").hide();
+					$(".period3").show();
+				});
+			});
+		</script>
+	</body>
+</html>
