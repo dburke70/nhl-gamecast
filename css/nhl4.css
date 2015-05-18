@@ -1,0 +1,589 @@
+/* FONTS */
+@font-face {
+   font-family: 'Futura_Today';
+   src: url('../fonts/futura_today_normal.eot');
+   src: url('../fonts/futura_today_normal.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/futura_today_normal.woff') format('woff'),
+        url('../fonts/futura_today_normal.ttf') format('truetype'),
+        url('../fonts/futura_today_normal.svg#Futura_Today') format('svg');
+   font-style: normal;
+   font-weight: normal;
+}
+
+@font-face {
+   font-family: 'Futura_Today_Bold';
+   src: url('../fonts/futura_today_bold.eot');
+   src: url('../fonts/futura_today_bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/futura_today_bold.woff') format('woff'),
+        url('../fonts/futura_today_bold.ttf') format('truetype'),
+        url('../fonts/futura_today_bold.svg#Futura_Today_Bold') format('svg');
+   font-style: normal;
+   font-weight: normal;
+}
+
+@font-face {
+   font-family: 'Futura_Today_Light';
+   src: url('../fonts/futura_today_light.eot');
+   src: url('../fonts/futura_today_light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/futura_today_light.woff') format('woff'),
+        url('../fonts/futura_today_light.ttf') format('truetype'),
+        url('../fonts/futura_today_light.svg#Futura_Today_Light') format('svg');
+   font-style: normal;
+   font-weight: normal;
+}
+
+@font-face {
+   font-family: 'Futura_Today_Demibold';
+   src: url('../fonts/FuturaTodayScreenDemiBold.eot');
+   src: url('../fonts/FuturaTodayScreenDemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaTodayScreenDemiBold.woff') format('woff'),
+        url('../fonts/FuturaTodayScreenDemiBold.ttf') format('truetype'),
+        url('../fonts/helveticaneue-light-webfont.svg#Helvetica_Neue_Light') format('svg');
+   font-style: normal;
+   font-weight: normal;
+}
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+body * {
+	font-family: 'Futura_Today';
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit  */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko         */
+	box-sizing: border-box;
+}
+.floatleft {
+	float: left;
+}
+.detroit-red {
+	color: #ec1f26;
+}
+.floatright {
+	float: right;
+}
+/* TOP PART - SCORES */
+.top-wrap {
+	display: table;
+	text-align: center;
+	width: 100%;	
+}
+.top-wrap div {
+	display: table-cell;
+	vertical-align: middle;
+}
+.top-wrap .score {
+	background: rgb(245,245,245);
+	font-family: 'Futura_Today_Demibold';
+	font-size: 25px;
+	height: 60px;
+	text-align: center;
+	width: 26.5625%;
+}
+.top-wrap .left-logo {
+	padding: 0 3.125%;;
+	text-align: right;
+	width: 16.875%;
+}
+.top-wrap .rt-logo {
+	padding: 0 3.125%;;
+	text-align: left;
+	width:  16.875%;
+}
+.rt-team,
+.left-team {
+	font-family: 'Futura_Today_Demibold';
+	font-size: 25px;
+	width: 19.5315%;
+}
+.team-abbrev {
+	font-family: 'Futura_Today_Demibold';
+	font-size: 25px;
+}
+.rt-team {
+	padding-right: 20px;
+	text-align: right;
+}
+.left-team {
+	padding-left: 20px;
+	text-align: left;
+}
+.top-wrap .left-logo img,
+.top-wrap .rt-logo img {
+	height: auto;
+	max-width: 100%;
+	}
+.sog {
+	display: block;
+	font-family: 'Futura_Today';
+	font-size: 11px;
+	width: 100%;
+}
+.tar {
+	text-align: right;
+	}
+.spike {
+	border-right: 1px solid #ddd;
+	color: #ddd;
+	font-family: 'Futura_Today';
+	margin-left: 4px;
+	margin-right: 8px;
+	}	
+h2.main-header {
+	background: #ccc;
+	font-family: 'Futura_Today_Bold';
+	font-size: 15px;
+	line-height: 30px;
+	margin: 0;
+	padding-left: 15px;
+	text-transform: uppercase;
+	width: 100%;
+}
+h3.main-header {
+	background-color: rgb(243,243,244);
+	font-family: 'Futura_Today_Demibold';
+	font-size: 11px;
+	line-height: 25px;
+	margin: 0;
+	padding-left: 15px;
+	text-transform: uppercase;
+	width: 100%;
+}
+.thirds,
+.section-submenu,
+.gamecast-submenu {
+	display: table;
+	overflow: hidden;
+	width: 100%;
+	}
+.gamecast-submenu div {
+	background-color: rgb(243,243,244);
+	border-bottom: 3px solid rgb(243,243,244);
+	border-right: 1px solid #ddd;
+	display: table-cell;
+	font-size: 11px;
+	line-height: 25px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+	width: 16.6666666666667%;
+}
+.gamecast-submenu div.active {
+	background-color: rgb(243,243,244);
+	background-image: url('../images/red-arrow.png')!important;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 11px 6px;
+	border-bottom-color: red;
+	font-family: 'Futura_Today_Bold';
+	}	
+.gamecast-submenu div.na {
+	color: #999;
+}
+.section-submenu div {
+	background-color: rgb(243,243,244);
+	display: table-cell;
+	font-family: 'Futura_Today_Demibold';
+	font-size: 11px;
+	line-height: 25px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: 33.3333333333%;
+}
+
+.section-submenu div:first-child {
+	padding-left: 15px;
+	text-align: left;
+}
+.section-submenu div:last-child {
+	padding-right: 15px;
+	text-align: right;
+}
+
+.rink-wrap {
+	height: 100%;
+	margin-bottom: 3%;
+	margin-top: 6%;
+	overflow: hidden;
+	width: 100%;
+}
+.rink {
+	background-image: url('../images/rink-novector.png');
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+}
+.responsive-image {
+    background-size: 100% 100%;
+    width: 100%;
+    z-index: 1;
+} 
+.home-team {
+	height: 60%;
+	left: 6%;
+	overflow: hidden;
+	position: absolute;
+	top: 20%;
+	width: auto;
+	z-index: 10;
+}
+.away-team {
+	height: 60%;
+	overflow: hidden;
+	position: absolute;
+	right: 6%;
+	top: 20%;
+	width: auto;
+	z-index: 10;
+}
+.center-ice {
+	height: 20%;
+	left: 45%;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	z-index: 40;
+}
+.center-ice img,
+.away-team img,
+.home-team img {
+	height: 100%;
+	opacity: .10;
+	width: auto;
+}
+.center-ice img {
+	opacity: .75
+}
+.goal,
+.shot {
+	height: auto;
+	overflow: hidden;
+	position: absolute;
+	width: 4%;
+	z-index: 60;
+}
+.goal {
+	z-index: 100;
+}
+.goal img,
+.shot img,
+.hit img,
+.penalty img {
+	height: auto;
+	width: 100%;
+}
+.legend-wrap {
+	margin-bottom: 3.5%;
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+}
+ul.summary,
+.legend-wrap ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+ul.summary {
+	border-top: 1px solid #e1e2e4;
+	display: table;
+	}
+div.thirds-wrap :first-child,
+h3.main-header + ul.summary {
+	border-top: 0px solid #e1e2e4;
+}
+ul.summary li {
+	display: table-cell;
+	font-size: 13px;
+	line-height: 16px;
+	margin: 0;
+	padding: 18px 20px 18px 0;
+}
+.legend-wrap ul li span {
+	display: inline-block;
+	font-size: 11px;
+	text-transform: uppercase;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+.legend-wrap ul li {
+	display: inline-block;
+	width: auto;
+}
+.legend-wrap ul li img {
+	height: auto;
+	vertical-align: middle;
+	width: 15px;
+}
+ul.summary li.time {
+	padding-left: 15px;
+	text-transform: uppercase;
+	width: 100px;
+}
+.legend-wrap ul li a.inactive img,
+.legend-wrap ul li a.inactive span {
+	color: #000;
+	opacity: .25;
+}
+.legend-wrap ul li a.active span {
+	opacity: 1;
+	color: #000;
+}
+div.section {
+	background: #fff;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+div.section.spacer {
+	display: none;
+}
+.double-wrap {
+	clear: both;
+	overflow: hidden;
+	float: none;
+	width: 100%;
+}
+
+h3.main-header,
+h2.main-header {
+	width: 100%;
+	float: left;
+	}
+div.expanded-team {
+	display: none;
+}
+/* STARS OF THE GAME */
+.player	{
+	background-color: rgb(243,243,244);
+	font-family: 'Futura_Today_Demibold';
+	font-size: 13px;
+	line-height: 20px;
+	margin: 0;
+	padding-left: 15px;
+	text-transform: uppercase;
+}  
+.player-photo {
+	vertical-align: top;
+	width: 24%;
+}
+.player-photo img {
+	height: auto;
+	width: 100%;
+}  
+img.star {
+	height: 10px;
+	width: auto;
+}   
+.player span:first-child {
+	padding-right: 10px;
+}  
+.player span:last-child {
+	display: inline-block;
+	float: right;
+	font-family: 'Futura_Today_Demibold';
+	padding-right: 3.125%;
+	text-align: right;
+}
+.star-stats {
+	padding-left: 15px;
+	padding-top: 5px;
+	vertical-align: middle;
+}
+.player-logo {
+	padding-left: 5%;
+	padding-right: 3.125%;
+	padding-top: 0;
+	text-align:right;
+	vertical-align: middle;
+	width: 20%;
+}
+.player-logo img {
+	height: auto;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	max-width: 90px;
+	width: 100%;
+}
+.star-table {
+	background: #fff;
+	float: left;
+	font-family: 'Futura_Today';
+	font-size: 13px;
+	line-height: 1.5em;
+	margin-bottom: 12px;
+	width: 100%;
+}
+.inner-table {
+	width: 100%;
+}
+.inner-table .col1 {
+	width: 17%;
+}
+.inner-table .col2 {
+	text-align: right;
+	width: 17%;
+}
+.inner-table .col3 {
+	padding-left: 18%;
+	width: 23%;
+}
+.inner-table .col4 {
+	text-align: right;
+	width: 23%;
+}
+.inner-table td:first-child,
+.inner-table td:nth-child(2n+1) {
+	font-family: 'Futura_Today_Demibold';
+}  
+/* end STARS OF THE GAME */
+
+	
+div.thirds-wrap.other,
+div.thirds-wrap {
+	margin: 0;
+	overflow: hidden;
+	width: 100%;
+}
+ul.thirds {
+	padding-left: 15px;
+	margin: 0;
+	list-style: none;
+}
+ul.thirds li {
+	display: table-cell;
+	font-size: 13px;
+	line-height: 16px;
+	margin: 0;
+	padding: 18px 20px 18px 0;
+}
+ul.thirds li {
+	float: left;
+	padding-right: 16.666666%;
+	text-align: right;
+	width: 33.3333333333%;
+}
+ul.thirds :first-child {
+	text-align: left;
+	text-transform: uppercase;
+	width: 33.3333333333%;
+}
+ul.thirds :last-child {
+	padding-right: 15px;
+	text-align: right;
+	width: 40.75%;
+	width: 33.3333333333%;
+}
+ul.thirds.other :first-child {
+	text-transform: capitalize;
+}
+ul.thirds,
+ul.thirds.other {
+	border-top: 1px solid #e1e2e4;
+}
+ul.thirds.other:first-child {
+	border-top: none;
+}
+ul.thirds.other li:first-child {
+	white-space: nowrap;
+}
+
+@media only screen and (max-width: 480px) {
+	div.section {
+		float: none;
+		width: 100%;
+	}
+	h3.main-header,
+	h2.main-header {
+		width: 100%;
+	}
+}
+.ad-container-lg {
+	display: none;
+}
+.ad-container-mobile {
+	display: block;
+	margin: 20px 0;
+	width: 100%;
+}
+.ad-container-mobile img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	}
+@media only screen and (min-width: 768px) {
+	.double-wrap {
+		float: left;
+		margin-top: 30px;
+	}
+	.double-wrap.first-section {
+		margin-top: 0;
+	}
+	div.section.floatleft {
+		float: left;
+	}
+		div.section.floatright {
+		float: right;
+	}
+	.double-wrap:first-child {
+		float: left;
+	}
+	.double-wrap:last-child {
+		float: right;
+	}
+	div.expanded-team {
+		display: block;
+		font-family: 'Futura_Today_Demibold';
+		font-size: .75em;
+	}
+	.rt-team,
+	.left-team {
+		width: 25.5315%;
+	}
+	.team-abbrev {
+		display: none;
+	}
+	.top-wrap .left-logo,
+	.top-wrap .rt-logo {
+		padding: 0;
+		text-align: left;
+		width:  8.875%;
+	}
+	.top-wrap .left-logo {
+		padding-left: 20px;
+	}
+	.top-wrap .rt-logo {
+		padding-right: 20px;
+	}
+	.top-wrap .score {
+		width: 15%;
+	}
+	div.section {
+		width: 49%;
+		float: none;
+		display: table-cell;
+	}
+	div.section.spacer {
+		width: 2%;
+		display: table-cell;
+	}
+	.ad-container-lg {
+		background: #e4e4e4 !important;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.ad-container-lg img {
+		margin: auto;
+	}
+	.ad-container-mobile {
+		display: none;
+	}
+}
