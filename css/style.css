@@ -260,6 +260,13 @@ h3.main-header {
 .center-ice img {
 	opacity: .75
 }
+.period1,
+.period2,
+.period3,
+.ot,
+.so {
+	display: none;
+}
 .goal,
 .shot {
 	height: auto;
@@ -495,6 +502,53 @@ ul.thirds.other:first-child {
 ul.thirds.other li:first-child {
 	white-space: nowrap;
 }
+.overlay {
+	background: #666;
+	color: #fff;
+	height: auto;
+	padding: 3.5%;
+	position: absolute;
+	width: 50%;
+	z-index: 1000;
+}
+.overlay img {
+	display: inline-block;
+	height: auto;
+	padding-right: 3.5%;
+	width: 35%;
+}
+.overlay .desc {
+	display: inline-block;
+	vertical-align: top;
+	width: 59.5%;
+}
+.overlay .desc h1 {
+	font-family: 'Futura_Today_Demibold';
+	font-size: 1.25em;
+	font-weight: normal;
+	line-height: 1.25em;
+	margin: 0;
+	padding: 0;
+}
+.overlay .desc h1 span {
+	display: inline-block;
+	float: right;
+	font-family: 'Futura_Today_Light';
+	font-weight: normal;
+	text-align: right;
+}
+.overlay .desc h2 {
+	font-family: 'Futura_Today_Light';
+	font-size: 1.25em;
+	font-weight: normal;
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+}
+.overlay .desc p {
+	font-family: 'Futura_Today_Light';
+	margin: .5em 0;
+}
 
 @media only screen and (max-width: 480px) {
 	div.section {
@@ -504,6 +558,19 @@ ul.thirds.other li:first-child {
 	h3.main-header,
 	h2.main-header {
 		width: 100%;
+	}
+	.overlay {
+		width: 100%;
+	}
+	.overlay .desc h1,
+	.overlay .desc h2 {
+		font-size: 1em;
+	}
+	.overlay img {
+		width: 25%
+	}
+	.overlay .desc {
+		width: 69.5%;
 	}
 }
 .ad-container-lg {
